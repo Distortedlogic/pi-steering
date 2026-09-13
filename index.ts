@@ -11,7 +11,7 @@ export default function (pi: ExtensionAPI) {
 		if (event.message.role === "user") toolCalls = 0;
 	});
 
-	pi.on("tool_execution_start", () => {
+	pi.on("tool_execution_end", () => {
 		toolCalls++;
 		if (toolCalls % TOOL_CALL_INTERVAL !== 0) return;
 		pi.sendMessage(
