@@ -1,0 +1,12 @@
+/tmp/pi-context-preload-tree-beqv6K/paths.txt
+├── .pi
+│   └── readcache
+│       ├── objects
+│       └── tmp
+├── biome.json
+├── .gitignore
+├── index.ts
+├── LICENSE
+├── package.json
+├── README.md
+└── tsconfig.json
