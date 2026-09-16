@@ -1,2 +1,4 @@
 node_modules/
 .env
+PRELOAD.md
+TREE.txt
