@@ -14,9 +14,6 @@ export default function (pi: ExtensionAPI) {
 	pi.on("tool_execution_end", () => {
 		toolCalls++;
 		if (toolCalls % TOOL_CALL_INTERVAL !== 0) return;
-		pi.sendMessage(
-			{ customType: "tool-call-nudge", content: STEERING_MESSAGE, display: false },
-			{ deliverAs: "steer" },
-		);
+		pi.sendMessage({ customType: "pi-steering", content: STEERING_MESSAGE, display: false }, { deliverAs: "steer" });
 	});
 }
