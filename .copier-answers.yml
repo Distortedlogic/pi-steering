@@ -1,0 +1,4 @@
+_commit: 5cfc348
+_src_path: /home/entropybender/pi-extensions
+project_description: Steer long Pi agent runs back on track every ten tool calls.
+project_name: pi-steering

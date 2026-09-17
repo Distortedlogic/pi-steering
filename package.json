@@ -1,37 +1,37 @@
 {
-  "name": "pi-steering",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Steer long Pi agent runs back on track every ten tool calls.",
-  "type": "module",
-  "keywords": [
-    "pi-package"
-  ],
-  "license": "MIT",
-  "engines": {
-    "node": ">=22.19.0"
-  },
-  "scripts": {
-    "check": "npm run typecheck && npm run lint",
-    "lint": "biome check .",
-    "typecheck": "tsc"
-  },
-  "files": [
-    "index.ts",
-    "README.md",
-    "LICENSE"
-  ],
-  "pi": {
-    "extensions": [
-      "./index.ts"
-    ]
-  },
-  "peerDependencies": {
-    "@earendil-works/pi-coding-agent": ">=0.85.1 <1"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^2.0.0",
-    "@types/node": "^22.10.0",
-    "typescript": "^5.9.0"
-  }
+	"name": "pi-steering",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Steer long Pi agent runs back on track every ten tool calls.",
+	"type": "module",
+	"keywords": [
+		"pi-package"
+	],
+	"license": "MIT",
+	"engines": {
+		"node": ">=22.19.0"
+	},
+	"scripts": {
+		"check": "npm run typecheck && npm run lint",
+		"lint": "biome check .",
+		"typecheck": "tsc"
+	},
+	"files": [
+		"index.ts",
+		"README.md",
+		"LICENSE"
+	],
+	"pi": {
+		"extensions": [
+			"./index.ts"
+		]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": ">=0.85.1 <1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.14",
+		"@types/node": "^22.10.0",
+		"typescript": "^5.9.0"
+	}
 }
