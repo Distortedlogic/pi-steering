@@ -2,7 +2,7 @@ import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 
 const TOOL_CALL_INTERVAL = 10;
 export const STEERING_MESSAGE =
-	"are u overcomplicating? overengineering? lost the scope? not idiomatic n native? not following the codebase conventions? deviate from the task list instructions? please adjust your behavior as appropriate then continue, and finish the work/task as ur were instructed.";
+	"are u overcomplicating? overengineering? lost the scope? not idiomatic n native? not following the codebase conventions? deviate from the task list instructions?";
 
 export default function (pi: ExtensionAPI) {
 	let toolCalls = 0;
